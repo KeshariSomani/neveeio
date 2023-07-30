@@ -8,3 +8,4 @@ export { default as Contact } from "./Contact";
 export { default as BlogExtended } from "./BlogExtended";
 export { default as Jobs } from "./Jobs";
 export { default as Franchise } from "./Franchise";
+export { default as NotFound } from "./NotFound";

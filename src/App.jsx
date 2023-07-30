@@ -15,6 +15,7 @@ import {
   IOT,
   Jobs,
   Logistics,
+  NotFound,
   Rental,
 } from "./pages";
 
@@ -34,7 +35,7 @@ function App() {
         <Route path="/iot" element={<IOT />} />
         <Route path="/jobs" element={<Jobs />} />
         <Route path="/franchise" element={<Franchise />} />
-        <Route path="*" element={<h1>Not Found</h1>} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />

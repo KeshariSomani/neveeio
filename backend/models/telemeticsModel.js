@@ -16,7 +16,7 @@ const formSchema = new Schema(
   }
 );
 
-const servicesModel = mongoose.model("servicesModel", formSchema);
+const telemeticsModel = mongoose.model("telemeticsModel", formSchema);
 
-module.exports = servicesModel;
+module.exports = telemeticsModel;
 

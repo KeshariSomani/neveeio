@@ -45,7 +45,7 @@ const Hero = () => {
             />
           </div>
 
-          <div className=" h-96 md:w-[28rem]  lg:w-[28rem] m-4 rectangle-4 p-4">
+          <div className=" h-96 md:w-80  lg:w-96 m-4 rectangle-4 p-4">
             <h1 className="font-semibold text-3xl lg:p-4">
               A Great App Makes Your Life Better
             </h1>
@@ -89,7 +89,7 @@ const Hero = () => {
 
             
             <div
-              className="text-xl text-white  cursor-pointer md:flex md:flex-col items-center   hidden h-fit md:mt-[32rem] lg:mt-[27rem]"
+              className="text-xl text-white  cursor-pointer md:flex md:flex-col items-center   hidden h-fit lg:mt-[28rem]"
               onClick={playVideo}
             >
                <img

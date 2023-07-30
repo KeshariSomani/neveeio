@@ -5,9 +5,7 @@
 * {
   font-family: "Poppins", sans-serif;
 }
-p {
-  line-height: 1.8rem;
-}
+
 
 /* ...............hero.................... */
 .bg-hero {
@@ -25,7 +23,7 @@ p {
 .rectangle {
   position: absolute;
   /* height: initial; */
- top: 0.2rem; 
+  top: 14rem;
   /* padding: 16px; */
   width: 50%;
 
