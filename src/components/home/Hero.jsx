@@ -45,7 +45,7 @@ const Hero = () => {
             />
           </div>
 
-          <div className=" h-96 md:w-80  lg:w-96 m-4 rectangle-4 p-4">
+          <div className=" h-96 md:w-[28rem]  lg:w-[28rem] m-4 rectangle-4 p-4">
             <h1 className="font-semibold text-3xl lg:p-4">
               A Great App Makes Your Life Better
             </h1>
@@ -54,18 +54,18 @@ const Hero = () => {
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
             </p>
-
-            <p className="lg:p-4 text-xl">Download App Now</p>
+<br />
+            <span className="lg:p-4 text-xl">Download App Now</span>
 
             <div className="p-4 w-full flex">
-              <div className="bg-black w-1/2 text-white text-xs border flex rounded-lg p-2 ">
+              <div className="bg-black w-[10rem] text-white text-xs border flex rounded-lg p-2 ">
                 <img src="/images/hero/google-play 1.svg" alt=""/>
                 <p>
                   Get it on <p className="text-sm"> Google play</p>
                 </p>
               </div>
 
-              <div className="bg-black w-1/2 text-white text-xs  border flex rounded-lg p-2 ">
+              <div className="bg-black w-[10rem] text-white text-xs  border flex rounded-lg p-2 ">
                 <img
                   src="/images/hero/ic_baseline-apple.svg"
                   alt=""
@@ -79,17 +79,17 @@ const Hero = () => {
           </div>
         </div>
         <div className="items-center">
-          <div className="w-full mx-auto h-full -mt-12 flex ">
+          <div className="w-full mx-auto h-full -mt-12 flex">
             <img
               src="/images/hero/phone-screen.svg"
               alt="phone-screen"
               srcset=""
-              className="mx-auto h-96  md:h-4/5 sm:h-full"
+              className="mx-auto h-96  md:h-4/5 sm:h-[27rem] md:ml-10"
             />
 
             
             <div
-              className="text-xl text-white  cursor-pointer md:flex md:flex-col items-center   hidden h-fit lg:mt-[28rem]"
+              className="text-xl text-white  cursor-pointer md:flex md:flex-col items-center   hidden h-fit md:mt-[32rem] lg:mt-[27rem]"
               onClick={playVideo}
             >
                <img
@@ -106,14 +106,14 @@ const Hero = () => {
           <div className=" md:hidden lg:hidden">
             <h1 className="text-yellow-400 text-center my-5 text-2xl font-extrabold ">DOWNLOAD NOW</h1>
           <div className="p-4 w-full  justify-around flex">
-              <div className="bg-black w-[40%] text-white text-xs border flex rounded-lg p-1 items-center ">
+              <div className="bg-black  w-[46%] lg:w-[40%] md:w-[40%] sm:w-[40%] text-white text-xs border flex rounded-lg p-1 items-center ">
                 <img src="/images/hero/google-play 1.svg" alt="" srcset="" className="h-10 w-10"/>
                 <p>
                   Get it on <p className="text-sm font-bold"> Google play</p>
                 </p>
               </div>
 
-              <div className="bg-black w-[40%] text-white text-xs  border flex rounded-lg p-1 space-x-2 ">
+              <div className="bg-black w-[46%] lg:w-[40%] md:w-[40%] sm:w-[40%] text-white text-xs  border flex rounded-lg p-1 space-x-2 ">
                 <img
                   src="/images/hero/ic_baseline-apple.svg"
                   alt=""
